@@ -1,0 +1,27 @@
+.page-admin-restaurant-management {
+  .restaurant-list {
+    width: 300px ;
+    margin-left: auto ;
+    margin-right: auto ;
+  }  
+  .form-control {
+    display: inline;
+  }
+ 
+   .fm-select {
+    width: 150px;
+  }  
+  .btn-active {
+    width: 80px;
+  }
+  .btn-deactive {
+  	width: 80px;
+    background-color: #EBE6DD;
+  	disabled: disabled;
+  }
+}
+
+
+.page-admin-past-operation {
+  
+}

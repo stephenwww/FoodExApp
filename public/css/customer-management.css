@@ -1,0 +1,38 @@
+.cust-edit-group a{
+	font-size: 15px;
+}
+
+.cust-addr address{
+	margin-bottom: 0;
+}
+
+.cust-addr{
+	border: 1px solid;
+	border-color : black;
+	margin-bottom: .5em;
+	padding-left:.5em;
+}	
+
+.cust-btn-submit{
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    /*border is optional*/
+    cursor: pointer;
+    color: #f85c37;
+    opacity: .65; 
+    margin-left:.2em; 
+}
+
+.cust-btn-submit:hover{
+	color:black;
+	opacity: .4;
+}
+
+label{
+	text-align: right;
+}
+
+button{
+	margin:0;
+}

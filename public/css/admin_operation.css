@@ -1,0 +1,21 @@
+#rm-cuisine-submit{
+	margin-top: 5px;
+}
+
+.edit-tax dl {
+	margin-bottom: 0;
+	width: 100%;
+
+}
+
+.edit-tax dt{
+	float:left;
+
+	width: 10%;
+}
+
+.edit-tax dd{
+	padding-left: 0;
+	float:left;
+	width: 90%;
+}

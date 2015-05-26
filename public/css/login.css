@@ -1,0 +1,83 @@
+/*
+CSS template retrived from:;
+http://codepen.io/m412c0/pen/qahmr
+modified by Jeremy Ni
+<!--
+Copyright (c) 2014 by Marco Biedermann (http://codepen.io/m412c0/pen/qahmr)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+*/
+
+
+#login input {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+}
+
+#login {
+  margin: 50px auto;
+  width: 400px;
+}
+
+#login h2 {
+  background: #ff7878;
+  /*background: #aaaaaa;*/
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 28px;
+  padding: 20px 26px;
+  margin-bottom: 0;
+}
+
+#login h2 span[class*="fontawesome-"] {
+  margin-right: 14px;
+}
+
+#login fieldset {
+  background: #ddd;
+  border-radius: 0 0 20px 20px;
+  padding: 10px 26px;
+}
+
+#login fieldset p {
+  margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+  margin-bottom: 0;
+}
+
+#login fieldset input[type="email"]{
+  float: right;
+  clear: both;
+  border-radius: 3px;
+}
+
+#login fieldset input[type="password"]{
+  float: right;
+}
+
+
+@media (max-width: 480px) {
+
+  #login { 
+  width: 320px;
+  }
+
+  #login #submit{
+  margin-top: 45px;
+}
+
+}
+
+
+

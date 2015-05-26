@@ -1,0 +1,30 @@
+.restaurant-detail-page {
+  background-color: white;
+  width: 1000px;
+}
+.restaurant-detail-page .dish-img {
+  height: 200px;
+  width: 300px;
+}
+.restaurant-detail-page .rst-menu-img-list {
+  list-style: none;
+}
+.restaurant-detail-page .rst-dish-img-item {
+  float: left;
+}
+.restaurant-detail-page .main-section {
+  float: left;
+  width: 1000px;
+}
+.page-rest-gallery .restaurant-list {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-rest-gallery .form-control {
+  display: inline;
+}
+.page-order-statistics .chartdiv {
+  width : 100%;
+  height  : 500px;
+}

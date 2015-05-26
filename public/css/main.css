@@ -1,0 +1,808 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: SPOT - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+ 
+/* FONTS */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 80px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ff7878
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand i {
+	color: #ff7878;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/* Dark Grey Wrap */
+#dg {
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-weight: 700;
+}
+
+/* Light Grey */
+#lg {
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#lg h4 {
+	font-weight: 700;
+}
+
+
+/* Red Wrap */
+#r {
+	background: #ff7878;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#r h4 {
+	color: white;
+	font-weight: 700;
+}
+
+#r p {
+	color: white;
+}
+
+/* Blue Wrap */
+
+#blue {
+	background: #3498db;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#blue h4 {
+	color: white;
+	font-weight: 700;
+}
+
+#blue p {
+	color: white;
+}
+
+
+
+/* Footer Wrap */
+#f {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#f i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover {
+	color: #ff7878;
+}
+
+/****** SECTIONS *****/
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-weight: 700;
+}
+
+.w i {
+	color: #ff7878;
+	font-size: 30px;
+}
+
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 0px;
+}
+
+.wb h4 {
+	font-weight: 700;
+}
+
+.desc {
+	padding-top: 35px;
+}
+
+.desc h4 {
+	font-weight: 700;
+}
+
+.desc i {
+	color: #ff7878;
+	font-size: 12px;
+	padding: 5px;
+}
+
+/***** MODAL CONTACT *****/
+.modal-content {
+	border-radius: 0px;
+
+}
+
+.modal-header {
+	background: #bdbdbd;
+	color: white;
+}
+
+.modal-header h4 {
+	font-weight: 700;
+}
+
+.modal-body {
+	 background: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+.modal-footer {
+	background: #f2f2f2;
+	margin-top: 0px; 
+}
+
+/* ==========================================================================
+   Pricing Tables
+   ========================================================================== */
+   
+.pricing-option {
+    padding-bottom: 40px;
+}
+
+.pricing-option .pricing-top {
+    position: relative;
+    background: #222;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+    padding: 40px 20px 30px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pricing-option .pricing-top .special-label {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1abc9c;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.special .pricing-top {
+    background: black;
+}
+
+.pricing-option .pricing-edition {
+    text-transform: uppercase;
+    display: block;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+.pricing-option .price {
+    display: inline-block;
+    position: relative;
+}
+
+.pricing-option .price sup {
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    font-size: 24px;
+}
+
+.pricing-option .price .price-amount {
+    font-size: 108px;
+    letter-spacing: -4px;
+}
+
+.pricing-option .price small {
+    position: relative;
+    left: -10px;
+    font-size: 18px;
+}
+
+.pricing-option ul {
+    list-style: none;
+    margin: 0;
+    background: #eee;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.pricing-option ul li {
+    border-bottom: solid 1px #e1e1e1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pricing-option .pricing-signup {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    color: white;
+    background: #1abc9c;
+}
+
+.pricing-option .pricing-signup:hover {
+    background: #ff7878;
+}
+
+
+/* ==========================================================================
+   from style.css
+   ========================================================================== */
+
+
+.restaurant-detail-page {
+  /*background-color: white;*/
+  width: 1000px;
+}
+.restaurant-detail-page .dish-img {
+  height: 200px;
+  width: 300px;
+}
+.restaurant-detail-page .rst-menu-img-list {
+  list-style: none;
+}
+.restaurant-detail-page .rst-dish-img-item {
+  float: left;
+}
+.restaurant-detail-page .main-section {
+  float: left;
+  width: 1000px;
+}
+.page-rest-gallery .restaurant-list {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-rest-gallery .form-control {
+  display: inline;
+}
+
+.page-admin-restaurant-management .form-control {
+  display: inline;
+}
+
+
+.page-rest-gallery .fm-rest-name {
+  width: 320px;
+}
+
+.page-rest-gallery .fm-select {
+  width: 150px;
+}
+
+@media (max-width: 480px) { 
+  .page-rest-gallery .fm-rest-name{
+  width: 220px;
+  }
+  
+  #search-bar{
+    width:94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+ 
+}
+
+.page-order-statistics .chartdiv {
+  width : 100%;
+  height  : 500px;
+}
+
+#past-income{
+  margin-top: 100px;
+}
+
+@media (max-width: 480px) { 
+.page-order-statistics .chartdiv {
+  width : 100%;
+  height  : 200px;
+}
+
+tspan{
+  font-size: 10px;
+}
+
+#past-income{
+  margin-top: 20px;
+}
+}
+
+.page-admin-restaurant-management .restaurant-list {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-admin-restaurant-management .fm-rest-name {
+  width: 400px;
+}
+.page-admin-restaurant-management .fm-select {
+  width: 150px;
+}
+.page-admin-restaurant-management .btn-active {
+  width: 80px;
+}
+.page-admin-restaurant-management .btn-deactive {
+  width: 80px;
+  disabled: disabled;
+}
+.page-customer-manament .div-cust-tel {
+  width: 200px;
+}
+
+body .welcome {
+  background-color: yellow;
+}
+body .test {
+  background-color: yellow;
+}
+.top-nav-bar {
+  margin: 0 20px;
+}
+#home {
+  display: block;
+  text-align: center;
+  color: gray;
+  font-size: 35px;
+}
+
+
+/* ==========================================================================
+   Group 16's CSS
+   ========================================================================== */
+
+.navbar-inverse {
+    /*background: #2d2d2d;*/
+    /*background: transparent;*/
+    background: rgba(46,46,46,0.7);
+
+    border-color: #2d2d2d;
+}
+
+/*id*/
+#search-bar{
+    display: inline;
+    margin-top:48px;
+    float: right;
+    /*display: block;
+    text-align: right;*/
+}
+
+
+#home {
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+}
+
+/** STARTED HERE */
+.form-signup {
+  margin-top: 100px;
+}
+
+.menu-item-img{
+  height: 300px !important;
+  width: 300px !important;
+}
+
+
+
+/* ==========================================================================
+   below Style for order tables
+   ========================================================================== */
+
+
+.order-table tr:nth-child(even){
+  background: #ccd8c9;
+}
+
+.order-table>tbody>tr>*{
+  padding: 10px;
+}
+
+.order-header{
+  background: #d2e2f3;
+}
+
+.order-header>tbody>tr>th, td{
+  padding-left:10px;
+}
+
+.order-header>tbody>tr>th{
+  font-size: 1.25em;
+}
+
+
+
+
+.current-order-table {
+  border: 1px #b6c6d7 solid;
+  border-radius: 1px;
+}
+
+.porder-header {
+  background: #b9d8cd;
+}
+
+
+.porder-header>tbody>tr>td, th{
+  padding-left: 10px;
+}
+
+.porder-header>tbody>tr>th{
+  font-size: 1.25em;
+}
+
+.past-order-table {
+  border: 1px #b6c6d7 solid;
+  border-radius: 1px;
+}
+
+.porder-table tr:nth-child(even){
+  background: #ccd8c9;
+}
+
+.worder-header {
+  background: #ffe1c2;
+}
+
+
+.worder-header>tbody>tr>td, th{
+  padding-left: 10px;
+}
+
+.worder-header>tbody>tr>th{
+  font-size: 1.25em;
+}
+
+.wait-order-table {
+  border: 1px #b6c6d7 solid;
+  border-radius: 1px;
+}
+
+.worder-table tr:nth-child(even){
+  background: #ccd8c9;
+}
+
+.oheader{
+  font-size: 2.5em;
+}
+
+
+@media (max-width: 480px) {
+
+  .order-header>tbody>tr>th{
+    font-size: 0.75em;
+}
+
+  .porder-header>tbody>tr>th{
+    font-size: 0.75em;
+  }
+
+  .worder-header>tbody>tr>th{
+  font-size: 0.75em;
+}
+
+.oheader{
+  font-size: 1.5em;
+}
+
+.order-header>tbody>tr>td{
+    font-size: 0.65em;
+}
+
+  .porder-header>tbody>tr>td{
+    font-size: 0.65em;
+  }
+
+  .worder-header>tbody>tr>td{
+  font-size: 0.65em;
+}
+
+}
+
+
+/* ==========================================================================
+   above Style for order tables
+   ========================================================================== */
+
+.navbar-inverse .navbar-nav>li>a{color: #DCE3E2;}
+
+.page-rest-detail #shopping-cart{
+  position:fixed; 
+  right:0px; 
+  bottom:0; 
+  margin-right:10px; 
+  padding:10px;
+  background-color: black;
+  opacity: 0.8;
+  width: 400px;
+}
+
+.page-rest-detail #shopping-cart h3{
+  margin: 10px;
+  color: #E9F0EA;
+}
+
+.page-rest-detail .div-order-dish {
+  color: #E5E6DA;
+
+}
+
+.page-rest-detail.div-order-dish label{
+  /*width: 1000px;*/
+}
+
+.page-rest-detail button {
+  color: #63635E;
+  opacity: 0.95;
+}
+
+.page-rest-gallery .popup{
+  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  margin-left: -15%;
+  margin-top: -20%;
+  background: #e0e0e0;
+  color: #000000;
+  /*border: 1px solid #1a1a1a;*/
+  font-size: 90%;
+  z-index:111;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.page-rest-detail #aboutus{
+  vertical-align: text-top;
+  padding-left: 7%;
+  width: 70%;
+}
+
+.footer{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.rest-gallery-img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery_score{
+  text-align: center;
+}
+
+.cuisine-container ul li { display: inline; }
+
+
+.cuisine-container ul {
+  padding:0;
+}
+
+.cuisine-container ul li { 
+  display: inline;
+}
+
+.menu-item-descr{
+  margin-top: 10px;
+  margin-bottom:10px;
+  width: 100%;
+  max-height: 40px;
+  min-height:40px;
+  overflow: scroll;
+}
+
+.popup-aboutus{
+
+  width: 100%;
+
+}
+
+#map{
+  padding: 40px;
+}
+
+@media (max-width: 480px) { 
+/*iframe{
+   visibility: hidden;*/
+   iframe{
+   width: 100%;
+   height:100%;
+   }
+   .my_res_home_center{
+    text-align: center !important;
+    margin:0, auto;
+   }
+
+}
+ 
+}

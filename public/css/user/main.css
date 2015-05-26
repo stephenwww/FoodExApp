@@ -1,0 +1,10 @@
+.form-signup, .form-signin 
+{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-signup-heading, .form-signin-heading
+{
+	font-weight: bold;
+}
